@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pricing - Lightspace</title>
+	<link rel="stylesheet" href="css/main-theme.css">
+	<script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+</head>
+<body>
+
+	
+	<!-- **************  header *************** -->
+	<header>
+		<div id="first-part-header">
+			<div class="container row">
+				<nav>
+					<ul class="main-nav">
+						<li><a href="#" title="About Us">About Us</a></li>
+						<li><a href="#" title="Help">Help</a></li>
+						<li><a href="6-contact.html" title="Contact Us">Contact Us</a></li>
+						<li><span>Language: &nbsp;</span></li>
+						<li class="dropdown-item"><img src="img/uk-flag.png" alt="United Kingdom flag">
+							<ul class="dropdown">	
+								<li>
+									<a href="#"><img src="img/rom-flag.png" alt="Romania flag"></a>
+								</li>
+							</ul>
+							
+							<img src="img/select-down.png" alt="Select icon" class="arrow">
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div id="second-part-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-2">
+						<h2><a href="index.html">LIGHTSPACE</a></h2>
+					</div>
+					<div class="col-4">
+						<nav>
+							<ul>
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="5-tour.html">TOUR</a></li>
+								<li class="active"><a href="4-pricing.html">PRICING</a></li>
+								<li><a href="2-sign-up.html">SIGN UP</a></li>
+								<li><a href="3-login.html">MEMBER LOGIN</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<h1>Pricing Lists</h1>
+						<p>Totally free 14-day trial. No credit card required.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header> 
+
+	
+	<!-- **************  main *************** -->
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<section class="col-2">
+					<div class="price-box" id="first-price">
+						<p>Free Version</p>
+						<p class="big-price">0<span>.00</span></p>
+					</div>
+					<div class="description-box">
+						<ul>
+							<li><img src="img/check.png" alt="Check icon"><span>1 TB Bandwidth</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Lorem ipsum dolor</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Nulla consequat massa</span></li>
+							<li><img src="img/abort.png" alt="Abort icon"><span>Maecenas tempus</span></li>
+							<li><img src="img/abort.png" alt="Abort icon"><span>Nullam quis ante</span></li>
+						</ul>
+					</div>
+				</section>
+				<section class="col-2">
+					<div class="price-box">
+						<p>Advanced</p>
+						<p class="big-price">12<span>.00</span></p>
+					</div>
+					<div class="description-box">
+						<ul>
+							<li><img src="img/check.png" alt="Check icon"><span>1 TB Bandwidth</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>orem ipsum dolor</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Nulla consequat massa</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Maecenas tempus</span></li>
+							<li><img src="img/abort.png" alt="Abort icon"><span>Nullam quis ante</span></li>
+						</ul>
+					</div>
+				</section>
+				<section class="col-2">
+					<div class="price-box">
+						<p>Premium</p>
+						<p class="big-price">19<span>.00</span></p>
+					</div>
+					<div class="description-box">
+						<ul>
+							<li><img src="img/check.png" alt="Check icon"><span>1 TB Bandwidth</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>orem ipsum dolor</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Nulla consequat massa</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Maecenas tempus</span></li>
+							<li><img src="img/check.png" alt="Check icon"><span>Nullam quis ante</span></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main> 
+
+
+	<!-- **************  footer *************** -->
+	<footer class="footer-pos">
+		<div class="container">
+			<div class="row">
+				<nav class="col-4">
+					<ul class="main-nav">
+						<li><a href="#">About Us</a></li>
+						<li><a href="5-tour.html">Tour</a></li>
+						<li><a href="4-pricing.html">Pricing</a></li>
+						<li><a href="7-login-help.html">Help</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="3-login.html">Login</a></li>
+						<li><a href="2-sign-up.html">Sign Up</a></li>
+					</ul>
+				</nav>
+				<div class="col-2">
+					<aside>
+						<div class="white-circle">
+							<img src="img/speech-bubbles-icon.png" alt="Speech bubbles">
+						</div>
+						<a href="#">Have a Question?</a>
+					</aside>
+				</div>
+			</div>
+			<p>All rights reserved, Copyright &copy; 2011, <a href="#">Lightspace</a></p>
+		</div>
+	</footer> 
+
+	<!-- script -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+	<script>
+
+		$(".dropdown-item").on('click', function() {
+			if ( $(".arrow").attr("src") === "img/select-up.png" )
+				$(".arrow").attr("src", "img/select-down.png");
+			else	
+				$(".arrow").attr("src", "img/select-up.png");
+			$(".dropdown").toggle();
+		});
+
+	</script>
+</body>
+</html>
